@@ -1,12 +1,14 @@
 # PyTorch101
 
-first time only command to create env:
+First time only command to create env:
     $ conda env create -f env.yml
 
-after manual activation:
+To manual activation:
     $ conda activate PyEnv101
 
 ## Environment Installation from scratch
+
+* seaborn - simple visualization
 
 install the environment manually by running these commands:
 
