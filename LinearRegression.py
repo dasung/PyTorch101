@@ -31,7 +31,7 @@ y = torch.tensor(y_list)
 w = torch.rand(1, requires_grad=True, dtype=torch.float64) # define weight
 b = torch.rand(1, requires_grad=True, dtype=torch.float64) # define bias
 
-num_epochs = 1000
+num_epochs = 1000 # num of iterations to be trained
 learning_rate = 0.001
 for epoch in range(num_epochs):     # iterate 1000 times through network
   for i in range(len(X)):           # each time passing data
